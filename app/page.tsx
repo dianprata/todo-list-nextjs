@@ -4,6 +4,7 @@ import Button from "@/components/Button";
 import { FiPlusCircle } from "react-icons/fi";
 import { BsClipboardX } from "react-icons/bs"
 import * as React from "react";
+import {InputHTMLAttributes} from "react";
 
 interface Task {
   id: string;
@@ -25,7 +26,7 @@ export default function Home() {
     setUserInput('')
   }
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
     setUserInput(e.currentTarget.value)
   }
 
