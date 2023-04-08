@@ -112,7 +112,7 @@ export default function Home() {
               <div className="flex flex-col items-center justify-center gap-4 py-16 px-6 border-t border-t-gray-400">
                 <BsClipboardX className="w-14 h-14 text-gray-300"/>
                 <div className="text-center">
-                  <h1 className="text-gray-300 font-bold">You don't have tasks registered yet</h1>
+                  <h1 className="text-gray-300 font-bold">You don&apos;t have tasks registered yet</h1>
                   <p className="text-gray-300">Create a new task to get started</p>
                 </div>
               </div>
